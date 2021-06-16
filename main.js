@@ -5,6 +5,7 @@ const cycle = prompt("Input the number of cycles. Only number, please.");
 for (let i = 0; i < cycle; i++) {
     console.log("cycle - " + i);
     const firstoper = prompt("Input first operand. Only number, please.");
+    console.log("Is first operator Number? - " + !isNaN(firstoper));
     if (Number(firstoper)) {
         alert("ok");
     }
@@ -13,6 +14,7 @@ for (let i = 0; i < cycle; i++) {
     }
     const operator = prompt("Input one of operators + - * /");
     const secondoper = prompt("Input second operand. Only number, please.");
+    console.log("Is second operator Number? - " + !isNaN(secondoper));
     if (Number(secondoper)) {
         alert("ok");
     }
