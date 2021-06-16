@@ -14,7 +14,7 @@ for (let i = 0; i < cycle; i++) {
     }
     const operator = prompt("Input one of operators + - * /");
     const secondoper = prompt("Input second operand. Only number, please.");
-    console.log("Is second operator Number? - " + !isNaN(secondoper));
+    console.log("Is second  operator Number? - " + !isNaN(secondoper));
     if (Number(secondoper)) {
         alert("ok");
     }
